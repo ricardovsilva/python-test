@@ -10,16 +10,14 @@ Implements the class FiniteStatesMachine that have the following list of states:
 The initial state of the FSM object should be stopped and the class must implements the following methods: getPreviousState, getCurrentState and setCurrentState.
 The state transitions must occur accordingly the following table:
 
-Actual state      Input         Next state
-stopped           start         started
-
-started           collect       collecting
-started           stop          stopped
-
-collecting        process       processing
-collecting        stop          stopped
-
-processing        stop          stopped
+| Actual state  | Input   | Next state |
+|---------------|---------|------------|
+| stopped       | start   | started    |
+| started       | collect | collecting |
+| started       | stop    | stopped    |
+| collecting    | process | processing |
+| collecting    | stop    | stopped    |
+| processing    | stop    | stopped    |
 
 Also implements the following methods: collectData and processData, that will be used during the states collecting and processing, respectively.
 
