@@ -13,4 +13,4 @@ When reviewing your code we are going to focus at code consistency, clarity and 
 
 ## Solving the tests
 
-Each folder stands for a challenge with a Readme.txt file explaining what needs to be done and what are the constraints.
+Each folder stands for a challenge with a  **Readme.txt** file explaining what needs to be done and what are the constraints.
